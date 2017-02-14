@@ -1,0 +1,32 @@
+<?
+$MESS["IMAGINWEB_SMS_subscr_title_edit"] = "Редактирование адреса #";
+$MESS["IMAGINWEB_SMS_subscr_title_add"] = "Добавление адреса";
+$MESS["IMAGINWEB_SMS_subscr_list"] = "Список адресов";
+$MESS["subscr_conf"] = "Подписка подтверждена:";
+$MESS["subscr_conf_code"] = "Код подтверждения подписки:";
+$MESS["subscr_date_conf"] = "Дата генерации кода подтверждения:";
+$MESS["IMAGINWEB_SMS_subscr_user"] = "Пользователь (ID):";
+$MESS["IMAGINWEB_SMS_subscr_active"] = "Подписка активна:";
+$MESS["subscr_send_conf"] = "Выслать подписчику код подтверждения при изменении (добавлении) адреса:";
+$MESS["IMAGINWEB_SMS_subscr_rub"] = "Рубрики подписки:";
+$MESS["subscr_fmt"] = "Формат:";
+$MESS["subscr_fmt_text"] = "Текст";
+$MESS["IMAGINWEB_SMS_subscr_date_add"] = "Дата добавления:";
+$MESS["IMAGINWEB_SMS_subscr_date_upd"] = "Дата модификации:";
+$MESS["IMAGINWEB_SMS_subscr_anonym"] = "Анонимный подписчик:";
+$MESS["IMAGINWEB_SMS_subscr_mnu_add"] = "Добавить нового подписчика";
+$MESS["IMAGINWEB_SMS_subscr_mnu_del"] = "Удалить данного подписчика";
+$MESS["IMAGINWEB_SMS_subscr_mnu_del_conf"] = "Удалить адрес подписки?";
+$MESS["subscr_templ"] = "Отправить письмо на основе шаблона сайта:";
+$MESS["IMAGINWEB_SMS_subscr_tab_subscriber"] = "Подписчик";
+$MESS["IMAGINWEB_SMS_subscr_tab_subscriber_title"] = "Параметры подписки";
+$MESS["IMAGINWEB_SMS_subscr_tab_subscription"] = "Подписки";
+$MESS["IMAGINWEB_SMS_subscr_tab_subscription_title"] = "Рубрики подписки";
+$MESS["IMAGINWEB_SMS_subs_save_error"] = "Ошибка при сохранении адреса подписки.";
+$MESS["IMAGINWEB_SMS_subscr_list_text"] = "Список";
+$MESS["IMAGINWEB_SMS_subscr_add_text"] = "Добавить";
+$MESS["IMAGINWEB_SMS_subscr_del_text"] = "Удалить";
+$MESS["IMAGINWEB_SMS_subs_saved"] = "Адрес подписки успешно сохранен.";
+$MESS["IMAGINWEB_SMS_subscr_number"] = "Номер телефона: ";
+$MESS["REQUIRED_NUMBER"] = "<span class=\"required\">Внимание!</span> Все вводимые номера должны иметь следующий формат: <i>71231231111</i>";
+?>

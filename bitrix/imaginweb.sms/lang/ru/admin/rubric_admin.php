@@ -1,0 +1,31 @@
+<?
+$MESS["IMAGINWEB_SMS_rub_title"] = "Список рассылок";
+$MESS["IMAGINWEB_SMS_rub_del_err"] = "Невозможно удалить рассылку.";
+$MESS["IMAGINWEB_SMS_rub_nav"] = "Рассылки";
+$MESS["IMAGINWEB_SMS_rub_name"] = "Название";
+$MESS["IMAGINWEB_SMS_rub_sort"] = "Сорт.";
+$MESS["IMAGINWEB_SMS_rub_act"] = "Акт.";
+$MESS["IMAGINWEB_SMS_rub_edit"] = "Изменить";
+$MESS["IMAGINWEB_SMS_rub_del"] = "Удалить";
+$MESS["IMAGINWEB_SMS_rub_site"] = "Сайт";
+$MESS["IMAGINWEB_SMS_rub_auto"] = "Авт.";
+$MESS["IMAGINWEB_SMS_rub_visible"] = "Публ.";
+$MESS["IMAGINWEB_SMS_rub_last_exec"] = "Генерация";
+$MESS["IMAGINWEB_SMS_rub_check"] = "Проверить шаблон";
+$MESS["IMAGINWEB_SMS_rub_wrong_generation_from"] = "Введите в фильтре правильную дату генерации \"c\"";
+$MESS["IMAGINWEB_SMS_rub_wrong_generation_till"] = "Введите в фильтре правильную дату генерации \"по\"";
+$MESS["IMAGINWEB_SMS_rub_wrong_generation_from_till"] = "Дата генерации \"по\" должна быть больше чем дата \"с\"";
+$MESS["IMAGINWEB_SMS_rub_save_error"] = "Ошибка изменения записи:";
+$MESS["IMAGINWEB_SMS_rub_no_rubric"] = "Рубрика не найдена";
+$MESS["IMAGINWEB_SMS_POST_ADD_TITLE"] = "Нажмите для добавления новой рубрики подписки";
+$MESS["IMAGINWEB_SMS_rub_f_site"] = "Сайт";
+$MESS["IMAGINWEB_SMS_rub_f_active"] = "Активность";
+$MESS["IMAGINWEB_SMS_rub_f_public"] = "Публикация";
+$MESS["IMAGINWEB_SMS_rub_f_auto"] = "Автоматическая";
+$MESS["IMAGINWEB_SMS_rub_f_find"] = "Найти";
+$MESS["IMAGINWEB_SMS_rub_f_find_title"] = "Введите строку для поиска";
+$MESS["IMAGINWEB_SMS_rub_del_conf"] = "Удалить рассылку?";
+$MESS["IMAGINWEB_SMS_rub_f_name"] = "Название";
+$MESS["IMAGINWEB_SMS_POST_U_YES"] = "Да";
+$MESS["IMAGINWEB_SMS_POST_U_NO"] = "Нет";
+?>

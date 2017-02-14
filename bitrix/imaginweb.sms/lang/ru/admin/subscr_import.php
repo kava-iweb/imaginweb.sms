@@ -1,0 +1,30 @@
+<?
+$MESS["IMAGINWEB_SMS_imp_title"] = "Импорт номеров";
+$MESS["IMAGINWEB_SMS_imp_results"] = "Результаты загрузки:";
+$MESS["IMAGINWEB_SMS_imp_results_total"] = "Всего уникальных номеров для загрузки:";
+$MESS["IMAGINWEB_SMS_imp_results_added"] = "Добавлено номеров:";
+$MESS["IMAGINWEB_SMS_imp_results_err"] = "Ошибочных номеров:";
+$MESS["IMAGINWEB_SMS_imp_delim"] = "Номера в списке должны быть разделены <b>запятой</b> или <b>переводом строки</b>.";
+$MESS["IMAGINWEB_SMS_imp_file"] = "Импортировать из файла:";
+$MESS["IMAGINWEB_SMS_imp_list"] = "Импортировать из списка:";
+$MESS["imp_send_code"] = "Выслать код подтверждения подписки:";
+$MESS["imp_conf"] = "Установить флаг подтверждения подписки:";
+$MESS["imp_user"] = "Подписчики могут быть добавлены как анонимные посетители или как пользователи сайта.";
+$MESS["imp_user_anonym"] = "Анонимные подписчики не имеют бюджета на сайте. При добавлении пользователей создаются бюджеты с возможностью привязки к группам пользователей.";
+$MESS["imp_add"] = "Добавить подписчиков:";
+$MESS["imp_add_anonym"] = "Как анонимных посетителей";
+$MESS["imp_add_users"] = "Как пользователей (с созданием бюджета)";
+$MESS["imp_send_reg"] = "Выслать регистрационную информацию пользователям:";
+$MESS["imp_add_gr"] = "Добавить пользователей в группы:";
+$MESS["IMAGINWEB_SMS_imp_subscr"] = "Подписать на рассылки:";
+$MESS["imp_fmt"] = "Формат:";
+$MESS["imp_fmt_text"] = "Текст";
+$MESS["IMAGINWEB_SMS_imp_butt"] = "Импортировать номера";
+$MESS["imp_site"] = "Отправить сообщения на основе шаблонов сайта:";
+$MESS["IMAGINWEB_SMS_subscr_imp_err1"] = "Ошибка загрузки файла.";
+$MESS["IMAGINWEB_SMS_subscr_imp_err2"] = "код ошибки";
+$MESS["IMAGINWEB_SMS_subscr_send_info"] = "Вы были зарегистрированы на сервере.";
+$MESS["IMAGINWEB_SMS_imp_import_tab"] = "Импорт";
+$MESS["IMAGINWEB_SMS_imp_import_tab_title"] = "Параметры импорта";
+$MESS["IMAGINWEB_SMS_imp_error"] = "Ошибка при импорте номеров.";
+?>
