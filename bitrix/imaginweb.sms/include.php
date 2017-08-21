@@ -115,7 +115,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -187,7 +188,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -256,7 +258,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -328,7 +331,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -400,7 +404,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -469,7 +474,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -544,7 +550,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -614,7 +621,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -689,7 +697,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -755,7 +764,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -831,7 +841,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			
 			foreach($arFields as $k => $v)
@@ -901,7 +912,8 @@ Class CImaginwebSms
 				'#DELIVERY_DOC_DATE#'	=> ($arFields['DELIVERY_DOC_DATE'])?$arFields['DELIVERY_DOC_DATE']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_DOC_DATE'),
 				'#STATUS_NAME#'		=> $status,
 				'#DELIVERY_NAME#'	=> !empty($delivery['NAME'])?$delivery['NAME']:CImaginwebSms::GetTrackingNumber($arFields['ID'],'DELIVERY_NAME'),
-				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID'])
+				'#TRACKING_NUMBER#'	=> ($arFields['TRACKING_NUMBER'])?$arFields['TRACKING_NUMBER']:CImaginwebSms::GetTrackingNumber($arFields['ID']),
+                '#ORDER_LINK#' => \Bitrix\Sale\Helpers\Order::getPublicLink(\Bitrix\Sale\Order::load($arFields['ID'])),
 			);
 			//foreach($arReplacesTemlate as $codeTMP => $valTMP) {
 			//	
